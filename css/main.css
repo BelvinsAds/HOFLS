@@ -159,9 +159,7 @@ p,a {
     }
 
     #create_room_btn {
-        padding: 0;
-        background-color: transparent;
-        border-radius: 50%;
+        
     }
 
     #create_room_btn:hover {

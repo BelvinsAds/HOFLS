@@ -239,3 +239,24 @@
         width: calc(100% - 2rem);
     }
 }
+
+@media (max-width: 400px) {
+    #stream_box {
+        width: 40vh;
+    }
+
+    .stream_actions{
+        position: fixed !important;
+    }
+
+    #camera-btn, #mic-btn, #screen-btn, #stream-btn {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    #messages_container {
+        display: none;
+    }
+    
+    
+}
