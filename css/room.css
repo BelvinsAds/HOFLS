@@ -240,7 +240,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #stream_box {
         width: 40vh;
     }
