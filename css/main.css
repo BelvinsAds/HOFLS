@@ -92,9 +92,13 @@ p,a {
     padding-bottom: 1px;
 }
 
+
 @media (max-width: 520px) {
     #nav_links {
         column-gap: 3em;
+    }
+    .Welcome {
+        font-size: 16px;
     }
 }
 

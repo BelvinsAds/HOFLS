@@ -43,7 +43,8 @@
 
 .room_item {
     flex-basis: calc(100% / 4 - 2.5rem);
-    border: 3px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 30%;
 }
 
@@ -78,9 +79,9 @@
     justify-content: center;
     min-width: 6rem;
     text-align: center;
-    background-color: yellow;
+    background-color: #262626;
     text-transform: uppercase;
-    color: #fff;
+    color: yellow;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 3px;
@@ -116,7 +117,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .hero_section_img {
         display: none;
     }
