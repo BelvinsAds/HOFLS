@@ -241,8 +241,29 @@
 }
 
 @media (max-width: 400px) {
+    #room_container {
+        display: inline-block;
+    }
+
+    #stream_container {
+        align-items: center;
+        justify-items: center;
+        width: 100% !important;
+        height: 100% !important;
+    }
     #stream_box {
-        width: 40vh;
+        width: 40vh !important;
+        height: 40vh !important;
+        position: fixed;
+       
+    }
+    .video-container {
+        height: 40vh !important;
+    }
+
+    .video-player{
+        height: 40vh;
+        width: 60vh;
     }
 
     .stream_actions{
@@ -255,8 +276,10 @@
     }
 
     #messages_container {
-        display: none;
+        display: block !important;
+        position: relative;
+        width: 100% !important;
+        top: 55vh;
+        height: 50vh
     }
-    
-    
 }
