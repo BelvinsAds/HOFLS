@@ -28,10 +28,6 @@
                 Lobby
                 <svg width="24" height="24" xmls="http://www.w3.org/2000/svg" fill="#ede0e0"></svg>
             </a>
-            <a href="login.html" class="nav_link" id="create_room_btn">
-                Login
-                <svg width="24" height="24" xmls="http://www.w3.org/2000/svg" fill="#ede0e0"></svg>
-            </a>
         </div>
     </header>
     
@@ -39,14 +35,16 @@
     <main id="join_container">
         <div id="form_container">
             <div id="form_container_header">
-                <p class="Welcome">Welcome to House Of Fitness Live Stream</p>
+                <p class="Welcome">Welcome to HOF Coach Portal</p>
             </div>
 
-            <form>
+            <form id="loginForm">
                 <div class="form_field_wrapper">
-                    <button type="submit"><a href="lobby.html" style="text-decoration: none; color: white;">Let's Get Started!
-                        <svg xmls="http://www.w3.org/2000/svg" width="24" height="24"></svg></a>
-                    </button>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="username">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="password">
+                    <button type="submit" name="login" id="login" style="background-color: darkgray; color: white;" placeholder="Login">Login</button>
                 </div>
             </form>
         </div>
@@ -55,5 +53,8 @@
 
 </body>
 <script src="js/agora-rtm-sdk-1.5.1.js"></script>
-<script src="js/join.js"></script>
+<script src="js/login.js" type="module"></script>
+<script>
+    
+</script>
 </html>
